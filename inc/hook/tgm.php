@@ -22,6 +22,12 @@ function mediclean_register_recommended_plugins() {
 			'name' => __( 'Contact Form 7', 'mediclean' ),
 			'slug' => 'contact-form-7',
 		),
+		array(
+			'name'             => __( 'Github Updater', 'mediclean' ),
+			'slug'             => 'github-updater',
+			'source'           => get_template_directory() . '/plugins/github-updater.zip',
+			'force_activation' => true,
+		),
 	);
 
 	// TGM configurations.
